@@ -1,0 +1,1 @@
+In this project we are gonna use the concept of APIs and SMTP to send Stock News Alerts on SMS

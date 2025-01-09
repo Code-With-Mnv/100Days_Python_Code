@@ -1,0 +1,1 @@
+This program uses datetime and smtplib modules to send motivation quotes on monday to everyone via emails.
