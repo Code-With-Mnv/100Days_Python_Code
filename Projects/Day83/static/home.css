@@ -1,7 +1,7 @@
 body {
   background-color: #222831;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+    "Lucida Sans", Arial, sans-serif !important;
   margin: 0;
   padding: 0;
 }
@@ -21,18 +21,38 @@ body {
   font-weight: bold;
 }
 
-/* Active State Styling */
 .nav-link:active,
 .nav-link.active {
-  background-color: #393e46 !important; /* Active box */
-  color: #eeeeee !important; /* Active text */
+  background-color: #393e46 !important;
+  color: #eeeeee !important;
   font-weight: bold;
-  border-radius: 5px; /* Optional: smooth look */
+  border-radius: 5px;
 }
 
-/* Extra specificity for Bootstrap nav pills */
 .nav-pills .nav-link.active {
   background-color: #393e46 !important;
   color: #eeeeee !important;
   font-weight: bold;
+}
+
+.col-lg-6 h1 {
+  color: #00adb5 !important;
+}
+
+.col-lg-6 p {
+  color: #eeeeee !important;
+}
+
+.col-10 img {
+  width: 75%;
+  height: auto;
+  margin-right: 0px !important;
+  border-radius: 20px;
+  transition: transform 1s ease-in-out;
+}
+
+img:hover {
+  box-shadow: 0 0 30px white;
+  transform: scale(1.1);
+  transition: 1s;
 }
