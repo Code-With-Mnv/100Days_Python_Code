@@ -1,0 +1,38 @@
+body {
+  background-color: #222831;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.fs-4 {
+  padding: auto;
+  font-size: 20px;
+  color: #eeeeee;
+}
+
+.nav-link {
+  color: #00adb5;
+}
+
+.nav-link:hover {
+  color: #eeeeee;
+  font-weight: bold;
+}
+
+/* Active State Styling */
+.nav-link:active,
+.nav-link.active {
+  background-color: #393e46 !important; /* Active box */
+  color: #eeeeee !important; /* Active text */
+  font-weight: bold;
+  border-radius: 5px; /* Optional: smooth look */
+}
+
+/* Extra specificity for Bootstrap nav pills */
+.nav-pills .nav-link.active {
+  background-color: #393e46 !important;
+  color: #eeeeee !important;
+  font-weight: bold;
+}
