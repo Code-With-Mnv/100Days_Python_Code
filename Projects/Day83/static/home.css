@@ -56,3 +56,24 @@ img:hover {
   transform: scale(1.1);
   transition: 1s;
 }
+
+.pb-2 {
+  color: white !important;
+}
+
+.col:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+#icon-grid h3 {
+  color: #eeeeee !important;
+}
+
+#icon-grid p {
+  color: #eeeeee !important;
+}
+
+.mb-3 {
+  color: #eeeeee !important;
+}
